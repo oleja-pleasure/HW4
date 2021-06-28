@@ -22,9 +22,9 @@ public class TestWithPageObject {
 
         RegistrationFormPage registrationFormPage = new RegistrationFormPage();
         RegistrationFormData registrationFormData = new RegistrationFormData();
-        registrationFormPage.fillForm(registrationFormData);
-        registrationFormPage.checkForm(registrationFormData);
-
+        registrationFormPage.fillForm(registrationFormData); //заполнение формы
+        registrationFormPage.checkForm(registrationFormData); //проверка формы
+//еще один комментарий для объединения коммитов
     }
 
     @AfterAll
